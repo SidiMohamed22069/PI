@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+form{
+    padding-left: 30%;
+    padding-top: 5%;
+}
+.formulaire{
+    align-items: center;
+    width: 450px;
+    padding: 4rem;
+    background-color: #262626;
+    border-radius: 20px;
+}
+.input{
+    padding-bottom: 10px;
+    position: relative;
+}
+input{
+    border: none;
+    outline: none;
+    background-color: #f5f5f5;
+    padding: 1rem 1.5rem;
+    padding-left: calc(1rem*3.5);
+    border-radius: 100px;
+    width: 400px;
+    }
+select{
+    border: none;
+    outline: none;
+    background-color: #f5f5f5;
+    padding: 1rem 1.5rem;
+    padding-left: calc(1rem*3.5);
+    border-radius: 100px;
+    width: 480px;
+}
+label{
+    text-align: center;
+    color: #f5f5f5;
+}
+button{
+    margin-left: 413px;
+    background-color:darkgreen;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 50px;
+}
+.input1{ 
+        color: red;
+  
+}
+.error{
+    background-color: white;
+    color: red;
+    text-align: center;
+    text-transform: uppercase;
+}

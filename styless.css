@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(calendarbanner5.png); 
+    background-position: center;
+    background-size: cover;
+    position:relative;
+ }
+ pre{
+    padding-left: 0px;
+    color: white;
+    font-family: 'Lily Script One', cursive;
+font-family: 'Lobster', cursive;
+font-size: 40px;
+}
+a{
+    color: white;
+    justify-content: space-between;
+    margin-right: 15px;
+    text-decoration: none;
+}
+.links{
+    text-align: center;
+    margin-top: 13px;
+    display:flex;
+    flex-direction: column;
+    margin-left: 400px;
+}
+.container{
+    margin-top: 150px;
+    margin-left: -131px;
+}
+.hh{
+    display:flex;
+}
+button{
+    border-radius: 50px;
+    padding: 10px;
+    border: none;
+    margin: 20px;
+    width: 200px;
+    color: whitesmoke;
+    background-color:#262626;
+    text-transform: capitalize;
+}
+button:hover{
+    background-image: linear-gradient(#f0932b,#f9ca24);
+}
